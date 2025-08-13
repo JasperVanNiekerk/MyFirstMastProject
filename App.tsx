@@ -200,7 +200,7 @@ const styles = StyleSheet.create({
     height: 350  // Set image height to 350 pixels
   }, 
 });
-
+//HELLO
 
 //Add change the main screen to ask the user for their name and password 
 //Make sure that they need to confirm their password

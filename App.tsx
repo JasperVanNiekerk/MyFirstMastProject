@@ -133,7 +133,7 @@ function MainScreen ({ navigation }: MainScreenProps){
             keyboardType="default"  // Use default keyboard
           /> 
         </View>
-        {/*testtttt */}
+        {/*testttttb5 */}
         {/* Status bar component for managing device status bar */}
         <StatusBar style="auto" />
         

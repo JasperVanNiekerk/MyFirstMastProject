@@ -79,7 +79,17 @@ function MainScreen ({ navigation }: MainScreenProps){
   
   // Log message when the component starts up (for debugging)
   console.log("App starting up"); 
+
+  const array = [1, 2, 3, 4, 5];
+
+  let output = ""; 
+  for(let item in array) 
+    { 
+      output += array[item] + " "; 
+    } 
+  console.log(output);  
   
+
   // Return the main screen UI
   return (
       <View style={styles.container}>
@@ -200,7 +210,6 @@ const styles = StyleSheet.create({
     height: 350  // Set image height to 350 pixels
   }, 
 });
-//HELLO
 
 //Add change the main screen to ask the user for their name and password 
 //Make sure that they need to confirm their password
